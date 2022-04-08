@@ -1,3 +1,6 @@
+// IRFAN HERIANA
+// MANAJEMEN INFORMATIKA
+// 20200123015
 void main() {
   //tipe data dan variabel
 // var
