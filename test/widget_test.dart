@@ -91,6 +91,17 @@ void main() {
   print(n);
 
   var o = hitungnilai3(79, 100);
+
+  //   final keyword = immutable / tidak bisa dirubah
+//   const final
+//   const
+//   const String mahasiswa = 'Beben';
+//   final
+  final String mahasiswafk;
+
+  mahasiswafk = "Beben";
+
+  print(mahasiswafk);
 }
 
 //   function
