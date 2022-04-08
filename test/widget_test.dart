@@ -102,6 +102,18 @@ void main() {
   mahasiswafk = "Beben";
 
   print(mahasiswafk);
+
+  //   null safety
+//   ? ! late
+//   ? digunakan dia boleh null
+//   String? jurusan;
+//   late itu untuk diisi nanti
+  late String jurusanns;
+
+  jurusanns = "Manajemen Informatika";
+//   jurusan = "MI";
+//   ! memaksa untuk di jalankan / yakin ada datanya
+  print(jurusanns.length);
 }
 
 //   function
