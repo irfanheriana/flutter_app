@@ -1,3 +1,7 @@
+// IRFAN HERIANA
+// MANAJEMEN INFRORMATIKA
+// 20200123015
+
 import 'dart:io';
 
 void main() {
@@ -47,19 +51,28 @@ void main() {
     stdout.write("\n");
   }
 
-  print("\n");
+  print("Looping no 4");
 
-  int i, j, s;
   for (int i = 1; i <= 3; i++) {
-    for (int j = 5; j >= i; j--) stdout.write(" ");
-
-    for (int s = 1; s <= i + (i - 1); s++) stdout.write("*");
+    for (int j = 2; j >= i; j--) {
+      stdout.write(' ');
+    }
+    for (int k = 1; k <= i; k++) {
+      stdout.write('*');
+    }
+    for (int l = 1; l <= i - 1; l++) {
+      stdout.write('*');
+    }
     stdout.write("\n");
   }
-  // for (int i = 0; i <= 5; i++) {
-  //   for (j = 1; j <= i; j++) stdout.write(" ");
-  //   for (s = 0; s >= (i - 5); s--) stdout.write("*");
-  //   for (s = 1; s <= (5 - i); s++) stdout.write("*");
-  //   stdout.write("\n");
-  // }
+  for (int i = 2; i >= 1; i--) {
+    for (int j = 2; j >= i; j--) {
+      stdout.write(' ');
+    }
+    for (int k = 1; k < i * 2; k++) {
+      stdout.write('*');
+    }
+    stdout.write("\n");
+  }
+
 }
