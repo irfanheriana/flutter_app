@@ -207,9 +207,9 @@ class Sedan extends Kendaraan {
 
 void main() {
 // instansiasi
-  var k1 = Kendaraan(merk: 'BMW', nama: 'civic', kecepatan: 20);
-  k1.merk = "Toyota";
-//   k1.maju(40);
+  var k1 = Kendaraan(merk: 'Honda', nama: 'civic', kecepatan: 20);
+  // k1.merk = "Toyota";
+  k1.maju(40);
   print(k1.merk);
   print(k1.nama);
   print(k1.kecepatan);
