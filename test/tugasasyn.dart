@@ -2,30 +2,25 @@
 // MANAJEMEN INFORMATIKA 
 // 20200123015
 
-void main () async{
-  Tungggu();
-  try {
-   var hasil = await Tunggu1(60);
-    print(hasil);
-  }catch (error) {
-    print(error);
-  }
-  
-  }
-
-Tungggu() {
-  print("Tunggu Sebentar Sedang Memeriksa Chapta");
+void main() async {
+  print("Tunggu Sebentar");
+  await periksa();
+  loading();
+  hasil();
 }
 
-Future <String> Tunggu1(int nilai) {
-  return Future.delayed(Duration(seconds: 4), () {
+Future periksa() {
+  return Future.delayed(
+      Duration(seconds: 4), () => print('Sedang Memeriksa Captha'));
+}
 
-  if (nilai >50) {
-    return "Berhasil ! Anda Bukan Robot";
-  }
-  else {
-    throw "Silahkan Ulangi Chapta";
-  }
-  });
+Future loading() {
+  return Future.delayed(
+      Duration(seconds: 2), () => print('.............................'));
+}
+
+Future hasil() {
+  return Future.delayed(
+      Duration(seconds: 2), () => print('Berhasil ! Kamu Bukan Robot'));
 }
 
