@@ -5,3 +5,4 @@ Color greyColor = Color(0xffA9B0A6);
 Color orangeColor = Color(0xffF9B650);
 Color bgColor = Color(0xffE5E5E5);
 Color whiteColor = Color(0xffFFFFFF);
+Color greenColor = Color(0xff81CB67);
